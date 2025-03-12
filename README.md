@@ -27,3 +27,11 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 - secondary tables: geolocation, information about tickets, type of days (week-days, week-ends, bank holidays, school vacation) - See ERD below
 
 ![ERD](img/ERD_free_tickets.png)
+
+### 🚿 Data cleaning in Python
+Here are the different steps we followed
+- Concatenate the 2022 and the 2023 tables
+- Treat null values
+- Drop useless columns
+- Format data types
+- Filter on inner Paris data
