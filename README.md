@@ -3,6 +3,9 @@
 
 I made this analysis along with 3 other teammates at Le Wagon. This is the final project we presented on our last day in front of all the bootcamp participants. We played the role of external consultants that make recommendations to Ile-de-France Mobilités (IDFM), aka the entity that manages public transportation in the region.  
 
+➡️ Read the data transformation presentation [here](https://docs.google.com/presentation/d/1oL-Tq8IW-vz1SThDDeRLEMGLRJV-Heb2UD_2cxzZhlA/edit?usp=sharing) (in French)  
+➡️ Access the final dashboard we presented [here](https://lookerstudio.google.com/u/1/reporting/2155cd6b-8a4a-4ff5-a74e-8d4efbb9c34c/page/p_3xqoufdccd) (in French)
+
 ### ⚠️ Disclaimer
 This analysis is made with public data only: we did know that the analysis is not completely suited for the "real" world. We did not have any information about IDFM's capacity of evolution in terms or infrastructure, nor about their detailed budget. However, I think our presentation is still interesting both for the data manipulation we made and the content that came out of it. 
 
