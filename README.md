@@ -39,7 +39,7 @@ Here are the different steps we followed:
   ```Python
   df_clean = df.dropna()
   ```
-- Filter on inner Paris data
+- Filter on inner Paris data  
   In order to apply this filter, we had to keep only lines where the variable CODE_STIF_TRNS equals 100
   ```Python
   mask_stif_trns = df_clean['CODE_STIF_TRNS']==100
