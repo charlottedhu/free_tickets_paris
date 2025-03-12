@@ -22,4 +22,5 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 - Due to the short time we had to analyze the data, we decide to narrow our perimeter to **the inner Paris railroad network**, excluding de facto subway stations outside of Paris and bus / tram data.
 - 2 main types of tables: **validations** (number of validations by ticket categories, days ands stations) and **profil horaire** (percentage of validations by hour, type of day, and stations) - See ERD below
 - secondary tables: geolocation, information about tickets, type of days (week-days, week-ends, bank holidays, school vacation) - See ERD below
-   
+
+![ERD](img/ERD_free_tickets.png)
