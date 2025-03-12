@@ -28,10 +28,22 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 ![ERD](img/ERD_free_tickets.png)
 
-### 🚿 Data cleaning in Python
-Here are the different steps we followed
+### 🚿 Data cleaning with Python
+Here are the different steps we followed:
 - Concatenate the 2022 and the 2023 tables
-- Treat null values
+  ```Python
+  df_concat = pd.concat([df_final,df2_final], axis=0).reset_index(drop=True)
+  ```
+- Treat null values  
+  We chose to drop null values because it was only a very small part of the data, among several millions of lines in the table, so the impact would be minimal.
+  ```Python
+  df_clean = df.dropna()
+  ```
+- Filter on inner Paris data
+  In order to apply this filter, we had to keep only lines where the variable CODE_STIF_TRNS equals 100
+  ```Python
+  mask_stif_trns = df_clean['CODE_STIF_TRNS']==100
+  df_final = df_clean[mask_stif_trns]
+  ``` 
 - Drop useless columns
 - Format data types
-- Filter on inner Paris data
