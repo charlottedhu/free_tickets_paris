@@ -28,8 +28,9 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 ![ERD](img/ERD_free_tickets.png)
 
-### 🚿 Data cleaning with Python
-Here are the different steps we followed:
+### 🚿 Data cleaning of the main data source with Python (Pandas library)
+
+<ins>Here are the cleaning actions we performed on the **validations** table, aka our main table</ins>
 - **Concatenate the 2022 and the 2023 tables**
   ```Python
   df_concat = pd.concat([df_final,df2_final], axis=0).reset_index(drop=True)
@@ -37,7 +38,7 @@ Here are the different steps we followed:
 - **Treat null values**  
   We chose to drop null values because it was only a very small part of the data, among several millions of lines in the table, so the impact would be minimal.
   ```Python
-  df_clean = df.dropna()
+  df_clean = df_concat.dropna()
   ```
 - **Filter on inner Paris data**  
   In order to apply this filter, we had to keep only lines where the variable CODE_STIF_TRNS equals 100
@@ -45,9 +46,19 @@ Here are the different steps we followed:
   mask_stif_trns = df_clean['CODE_STIF_TRNS']==100
   df_final = df_clean[mask_stif_trns]
   ``` 
-- **Drop useless columns**
-  The idea is to simplify the dataset by removing columns containing internal codes or references that are not relevant for filtering or analysis
+- **Drop useless columns**  
+  Removing columns containing internal codes or references that are not relevant for filtering or analysis
   ```Python
   df_final = df_final.drop(columns=df_final[['CODE_STIF_ARRET','lda','CODE_STIF_RES','CODE_STIF_TRNS']])
   ``` 
-- **Format data types**
+- **Format data types**  
+  Changing the 'JOUR' column in date format, and the 'NB_VALID' in numeric format
+  ```Python
+  df_final['JOUR'] = pd.to_datetime(df_final['JOUR'],format=%d/%m/%Y)
+  df_final['NB_VALID'] = df_final['NB_VALID'].astype(int)
+  ```
+
+<ins>As for the other tables:</ins> 
+- We performed similar actions on the **profil horaire** table (concatenate, drop null values, filter and reformat)
+- The other tables are way smaller, and will be useful to qualify the data (type of day, type of client). These tables were quite clean already. 
+  
