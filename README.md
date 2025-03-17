@@ -62,4 +62,17 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 - We performed similar actions on the **profil horaire** table (concatenate, drop null values, filter and reformat)
 - The other tables were way smaller, and will be useful to qualify the data (type of day, type of client). These tables were quite clean already. 
 
-### 🪄 Data Transformation
+### 🪄 Data Transformation with Python (Pandas library)
+
+After cleaning the data, the **validations** table schema is as follows:
+![valid_clean](img/validations_clean.png)
+
+- **Group by JOUR, LIBELLE_ARRET, CATEGORIE_TITRE, sum of NB_VALID**
+  ```Python
+  df_final = df_final.groupby(['JOUR','LIBELLE_ARRET','CATEGORIE_TITRE'], as_index=False).sum()
+  ```
+- **Add type of day using a join with the type_jour table**
+  ```Python
+  df_final = df_final.merge(type_jour, on='JOUR', how='left')
+  ```
+-**Create a join key
