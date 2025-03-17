@@ -64,8 +64,16 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 ### 🪄 Data Transformation with Python (Pandas library)
 
-After cleaning the data, the **validations** table schema is as follows:
-![valid_clean](img/validations_clean.png)
+After cleaning the data, the **validations** and the **profil_horaire** table schemas are as follows:  
+![valid_clean](img/validations_clean.png)  ![profil_clean](img/profil_clean.png)  
+With:  
+**JOUR** = date (day)   
+**LIBELLE_ARRET** = name of the subway station  
+**CATEGORIE_TITRE** = type of subway card (full price, monthly subscription, student price...)   
+**NB_VALID** = number of validations  
+**CAT_JOUR** = category of day as defined by IDFM (weekday, week-end, bank holiday, school vacation)  
+**TRNC_HORR_60** = hour of the day (60-minute periods)   
+**pourc_validations** = percentage of validations counted in the specific hour of the day  
 
 - **Group by JOUR, LIBELLE_ARRET, CATEGORIE_TITRE, sum of NB_VALID**
   ```Python
