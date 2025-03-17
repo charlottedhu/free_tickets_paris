@@ -60,5 +60,6 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 <ins>As for the other tables:</ins> 
 - We performed similar actions on the **profil horaire** table (concatenate, drop null values, filter and reformat)
-- The other tables are way smaller, and will be useful to qualify the data (type of day, type of client). These tables were quite clean already. 
-  
+- The other tables were way smaller, and will be useful to qualify the data (type of day, type of client). These tables were quite clean already. 
+
+### 🪄 Data Transformation
