@@ -66,7 +66,7 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 After cleaning the data, the **validations** and the **profil_horaire** table schemas are as follows:  
 ![valid_clean](img/validations_clean.png)  ![profil_clean](img/profil_clean.png)  
-With:  
+<ins>With:</ins>  
 **JOUR** = date (day)   
 **LIBELLE_ARRET** = name of the subway station  
 **CATEGORIE_TITRE** = type of subway card (full price, monthly subscription, student price...)   
@@ -75,12 +75,16 @@ With:
 **TRNC_HORR_60** = hour of the day (60-minute periods)   
 **pourc_validations** = percentage of validations counted in the specific hour of the day  
 
-- **Group by JOUR, LIBELLE_ARRET, CATEGORIE_TITRE, sum of NB_VALID**
+- **Group by JOUR, LIBELLE_ARRET, CATEGORIE_TITRE, sum of NB_VALID** - *validations table*
   ```Python
-  df_final = df_final.groupby(['JOUR','LIBELLE_ARRET','CATEGORIE_TITRE'], as_index=False).sum()
+  validations = validations.groupby(['JOUR','LIBELLE_ARRET','CATEGORIE_TITRE'], as_index=False).sum()
   ```
-- **Add type of day using a join with the type_jour table**
+- **Add type of day using a join with the type_jour table** - *validations table*
   ```Python
-  df_final = df_final.merge(type_jour, on='JOUR', how='left')
+  validations = validations.merge(type_jour, on='JOUR', how='left')
   ```
--**Create a join key
+- **Create a join key between validations and profil horaire** - *validations AND profil horaire table**
+  ```Python
+  validations['station_jour'] = validations['LIBELLE_ARRET'] + validations['CAT_JOUR']
+  profil['station_jour'] = profil['LIBELLE_ARRET'] + profil['CAT_JOUR']
+  ```
