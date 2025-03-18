@@ -62,10 +62,9 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 - We performed similar actions on the **profil horaire** table (concatenate, drop null values, filter and reformat)
 - The other tables were way smaller, and will be useful to qualify the data (type of day, type of client). These tables were quite clean already. 
 
-### 🪄 Data Transformation with Python (Pandas library)
-
 After cleaning the data, the **validations** and the **profil_horaire** table schemas are as follows:  
 ![valid_clean](img/validations_clean.png)  ![profil_clean](img/profil_clean.png)  
+
 <ins>With:</ins>  
 **JOUR** = date (day)   
 **LIBELLE_ARRET** = name of the subway station  
@@ -75,7 +74,7 @@ After cleaning the data, the **validations** and the **profil_horaire** table sc
 **TRNC_HORR_60** = hour of the day (60-minute periods)   
 **pourc_validations** = percentage of validations counted in the specific hour of the day  CREAT
 
-<ins>**CREATE A FIRST TABLE CONTAINING THE NUMBER OF VALIDATIONS BY HOUR**</ins>
+### 🪄 Data Transformation with Python (Pandas library): create a first table containing the hourly validations
 
 - **Group by JOUR, LIBELLE_ARRET, CATEGORIE_TITRE, sum of NB_VALID** - *validations table*
   ```Python
@@ -112,3 +111,5 @@ After cleaning the data, the **validations** and the **profil_horaire** table sc
   from pandas_gbq import to_gbq
   to_gbq(df, f'free_tickets.valid_horaire', project_id=training-431014, if_exists='append')
   ```
+
+### 🪄 Data transformation with SQL (BigQuery): create a second table with the calculation of the gap of revenue
