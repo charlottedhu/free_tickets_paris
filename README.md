@@ -151,3 +151,6 @@ With a left join on the name of the subway stations ('LIBELLE_ARRET'), we also a
 
 So we ended with another enriched **validations** table containing the financial information we need: 
 ![enriched_valid](img/enriched_valid.png)  
+
+
+At the end of our data transformation, we had 2 enriched tables, **valid_horaire** and **validations**, that we exported in Looker Studio to structure our analysis. 
