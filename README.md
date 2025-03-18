@@ -73,7 +73,9 @@ After cleaning the data, the **validations** and the **profil_horaire** table sc
 **NB_VALID** = number of validations  
 **CAT_JOUR** = category of day as defined by IDFM (weekday, week-end, bank holiday, school vacation)  
 **TRNC_HORR_60** = hour of the day (60-minute periods)   
-**pourc_validations** = percentage of validations counted in the specific hour of the day  
+**pourc_validations** = percentage of validations counted in the specific hour of the day  CREAT
+
+<ins>**CREATE A FIRST TABLE CONTAINING THE NUMBER OF VALIDATIONS BY HOUR**</ins>
 
 - **Group by JOUR, LIBELLE_ARRET, CATEGORIE_TITRE, sum of NB_VALID** - *validations table*
   ```Python
@@ -83,8 +85,23 @@ After cleaning the data, the **validations** and the **profil_horaire** table sc
   ```Python
   validations = validations.merge(type_jour, on='JOUR', how='left')
   ```
-- **Create a join key between validations and profil horaire** - *validations AND profil horaire table**
+- **Create a join key between validations and profil horaire** - *validations AND profil horaire table*
   ```Python
   validations['station_jour'] = validations['LIBELLE_ARRET'] + validations['CAT_JOUR']
   profil['station_jour'] = profil['LIBELLE_ARRET'] + profil['CAT_JOUR']
   ```
+- **Add TRNC_HORR_60 and pourc_validations to the validations table with a LEFT JOIN on profil horaire**
+  ```Python
+  validations = validations.merge(profil, on='station_jour', how='left')
+  ```
+- **Calculate the number of validations by hour of the day** - *validations table*
+  ```Python
+  validations['valid_horaire'] = validations['NB_VALID']*validations['pourc_validations']/100
+  #format this new column as an integer because validations can only be an integer:
+  validations['valid_horaire'] = validations['valid_horaire'].astype(int)
+  ```
+- **Rename the table**
+  ```Python
+  valid_horaire = validations
+  ```
+We now have a new enriched table **valid_horaire** as follows, that we can export in BigQuery:
