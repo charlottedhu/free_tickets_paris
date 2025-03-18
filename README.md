@@ -104,5 +104,11 @@ After cleaning the data, the **validations** and the **profil_horaire** table sc
   ```Python
   valid_horaire = validations
   ```
-We now have a new enriched table **valid_horaire** as follows, that we can export in BigQuery:  
-![valid_horaire](img/valid_horaire.png)  
+  We now have a new enriched table **valid_horaire** as follows, that we can export in BigQuery:  
+  ![valid_horaire](img/valid_horaire.png)  
+
+- **Export in BigQuery**
+  ```Python
+  from pandas_gbq import to_gbq
+  to_gbq(df, f'free_tickets.valid_horaire', project_id=training-431014, if_exists='append')
+  ```
