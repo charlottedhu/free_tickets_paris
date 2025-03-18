@@ -139,7 +139,7 @@ We also worked with the cleaned **validations** table we exported in BQ from our
   FROM validations
   ``` 
 
-- **Add geolocation data to the validations table**
+- **Add geolocation data to the validations table**  
 With a left join on the name of the subway stations ('LIBELLE_ARRET'), we also added the data coordinates of each station (coming from a       secondary table **emplacement_gares_ligne_metro**, see ERD), because it could possibely be useful for graphs in Looker Studio. 
   ```SQL
   SELECT
