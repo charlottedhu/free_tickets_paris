@@ -104,4 +104,5 @@ After cleaning the data, the **validations** and the **profil_horaire** table sc
   ```Python
   valid_horaire = validations
   ```
-We now have a new enriched table **valid_horaire** as follows, that we can export in BigQuery:
+We now have a new enriched table **valid_horaire** as follows, that we can export in BigQuery:  
+![valid_horaire](img/valid_horaire.png)  
