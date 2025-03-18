@@ -154,3 +154,5 @@ So we ended with another enriched **validations** table containing the financial
 
 
 At the end of our data transformation, we had 2 enriched tables, **valid_horaire** and **validations**, that we exported in Looker Studio to structure our analysis. 
+
+### 📊 Data Vizualisation and Analysis with Looker Studio
