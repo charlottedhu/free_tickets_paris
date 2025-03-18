@@ -120,3 +120,8 @@ The first thing we had to do was to determine the average price of a validation 
 That is how we came out with this table **prix_moyen_validation**:  
 ![avg_price](img/avg_price.png)  
 
+We also worked with the cleaned **validations** table we exported in BQ from our Python notebook:  
+![valid_clean](img/validations_clean.png)  
+
+
+
