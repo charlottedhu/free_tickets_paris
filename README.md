@@ -146,7 +146,7 @@ With a left join on the name of the subway stations ('LIBELLE_ARRET'), we also a
   validations.*,
   geo.Geo_Shape,
   geo.Geo_Point
-  FROM validations LEFT JOIN emplacement_gares_ligne_metro as geo USING LIBELLE_ARRET
+  FROM validations LEFT JOIN emplacement_gares_ligne_metro AS geo USING LIBELLE_ARRET
   ```
 
 So we ended with another enriched **validations** table containing the financial information we need: 
