@@ -111,4 +111,11 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
   to_gbq(df, f'free_tickets.valid_horaire', project_id=training-431014, if_exists='append')
   ```
 
-### 🪄 Data transformation with SQL (BigQuery): create a second table with the calculation of the gap of revenue
+### 🪄 Data transformation with SQL (BigQuery): create a second table with the calculation of the gap of revenue  
+
+Part of the transformation we did has been made with Python, the other one has been made in BigQuery with SQL, because we were working together at the same time, and each of us was experiencing different techniques. 
+
+The objective here is to get information about the prices of the different tickets, in order to estimate the shortfall due to the potential gratuity (i.e. the money IDFM is going to lose if nobody pays). 
+The first thing we had to do was to determine the average price of a validation for each type of ticket. The idea was to take the data we had on one year, and calculate the daily average price of a validation by type. 
+That is how we came out with this table **prix_moyen_validation**:
+
