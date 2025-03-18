@@ -123,5 +123,19 @@ That is how we came out with this table **prix_moyen_validation**:
 We also worked with the cleaned **validations** table we exported in BQ from our Python notebook:  
 ![valid_clean](img/validations_clean.png)  
 
+- **Add the unit price of a validation to the validations table**
+  ```SQL
+  SELECT
+  validations.*,
+  prix_moyen_validation.prix_par_validation
+  FROM validations LEFT JOIN prix_moyen_validation USING CATEGORIE_TITRE
+  ```
 
+- **Add the total shortfall ('GAP_REVENU') to the validations table**
+  ```SQL
+  SELECT
+  *,
+  NB_VALID * prix_par_validation AS GAP_REVENU
+  FROM validations
+  ``` 
 
