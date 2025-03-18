@@ -117,5 +117,6 @@ Part of the transformation we did has been made with Python, the other one has b
 
 The objective here is to get information about the prices of the different tickets, in order to estimate the shortfall due to the potential gratuity (i.e. the money IDFM is going to lose if nobody pays). 
 The first thing we had to do was to determine the average price of a validation for each type of ticket. The idea was to take the data we had on one year, and calculate the daily average price of a validation by type. 
-That is how we came out with this table **prix_moyen_validation**:
+That is how we came out with this table **prix_moyen_validation**:  
+![avg_price](img/avg_price.png)  
 
