@@ -1,7 +1,7 @@
 # Free tickets (let's dream)
 ## A study of potential gratuity in the parisian subway
 
-I made this analysis along with 3 other teammates at Le Wagon. This is the final project we presented on our last day in front of all the bootcamp participants. We played the role of external consultants that make recommendations to Ile-de-France Mobilités (IDFM), aka the entity that manages public transportation in the region.  
+I made this analysis along with 3 other teammates at Le Wagon. This is the final project we presented on our last day in front of all the bootcamp participants. We played the role of external consultants that make recommendations to Ile-de-France Mobilités (IDFM), i.e. the entity that manages public transportation in the region.  
 
 ➡️ Read the data transformation presentation [here](https://docs.google.com/presentation/d/1oL-Tq8IW-vz1SThDDeRLEMGLRJV-Heb2UD_2cxzZhlA/edit?usp=sharing) (in French)  
 ➡️ Access the final dashboard we presented [here](https://lookerstudio.google.com/u/1/reporting/2155cd6b-8a4a-4ff5-a74e-8d4efbb9c34c/page/p_3xqoufdccd) (in French)
@@ -30,7 +30,7 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 ### 🚿 Data cleaning of the main data source with Python (Pandas library)
 
-<ins>Here are the cleaning actions we performed on the **validations** table, aka our main table</ins>
+<ins>Here are the cleaning actions we performed on the **validations** table, i.e. our main table</ins>
 - **Concatenate the 2022 and the 2023 tables**
   ```Python
   df_concat = pd.concat([df_final,df2_final], axis=0).reset_index(drop=True)
@@ -62,17 +62,16 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 - We performed similar actions on the **profil horaire** table (concatenate, drop null values, filter and reformat)
 - The other tables were way smaller, and will be useful to qualify the data (type of day, type of client). These tables were quite clean already. 
 
-After cleaning the data, the **validations** and the **profil_horaire** table schemas are as follows:  
+<ins>After cleaning the data, the **validations** and the **profil_horaire** table schemas are as follows:</in>  
 ![valid_clean](img/validations_clean.png)  ![profil_clean](img/profil_clean.png)  
 
-<ins>With:</ins>  
 **JOUR** = date (day)   
 **LIBELLE_ARRET** = name of the subway station  
 **CATEGORIE_TITRE** = type of subway card (full price, monthly subscription, student price...)   
 **NB_VALID** = number of validations  
 **CAT_JOUR** = category of day as defined by IDFM (weekday, week-end, bank holiday, school vacation)  
 **TRNC_HORR_60** = hour of the day (60-minute periods)   
-**pourc_validations** = percentage of validations counted in the specific hour of the day  CREAT
+**pourc_validations** = percentage of validations counted in the specific hour of the day  
 
 ### 🪄 Data Transformation with Python (Pandas library): create a first table containing the hourly validations
 
