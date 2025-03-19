@@ -38,7 +38,6 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 🔗[Go back to the Table of contents](#-table-of-contents)  
 
-
 ### 🚿 Data cleaning of the main data source with Python (Pandas library)
 
 <ins>Here are the cleaning actions we performed on the **validations** table, i.e. our main table</ins>
