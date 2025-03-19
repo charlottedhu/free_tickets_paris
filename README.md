@@ -165,9 +165,14 @@ The first thing to say about frequentation is that we have to take into account 
 
 ![affluence](img/affluence.png)
 
-The idea is to anticipate what will be the total frequentation by year and average by day if it increases with gratuity. We made 3 hypothesis: low, medium and high increase. This is what we have in the capture below. 
-**LOW**: Freqentation increases by 2% ➡️ It represents 19.5 millions more people in the subway in a year, i.e. 54K more people a day on average
-**MEDIUM**: Frequentation increases by 5% ➡️ It represents 48.7 millions more people in the subway in a year, i.e. 136K more people a day on average
-**HIGH**: Frequentation increases by 10% ➡️ It represents 97.4 millions more people in the subway in a year, i.e. 272K more people a day on average
+The idea is to anticipate what will be the total frequentation by year and average by day if it increases with gratuity. We made 3 hypothesis: low, medium and high increase. This is what we have in the capture below.   
+- **LOW**: Freqentation increases by 2% ➡️ It represents 19.5 millions more people in the subway in a year, i.e. 54K more people a day on average  
+- **MEDIUM**: Frequentation increases by 5% ➡️ It represents 48.7 millions more people in the subway in a year, i.e. 136K more people a day on average  
+- **HIGH**: Frequentation increases by 10% ➡️ It represents 97.4 millions more people in the subway in a year, i.e. 272K more people a day on average  
 
-![affluence_prev](img/affluence_prev.png)
+![affluence_prev](img/affluence_prev.png)  
+
+What is interesting is that we can filter these figures and graphs by type of day and / or by subway station. It can be useful for IDFM to anticipate which are the days, hours or stations that will be jammed and could require additionnal service (which means capacity and budget). It is a way to know if they can offer gratuity given their capacity and budget.  
+For example, these are the figures we get 
+
+We do not have access to capacity and infrastructure budget, so the recommendations we made could be more precise, but based on the insights we have
