@@ -157,8 +157,11 @@ At the end of our data transformation, we had 2 enriched tables, **valid_horaire
 
 ### 📊 Data Vizualisation and Analysis with Looker Studio
 
-👫 <ins>**FIRST AXIS : IMPACT OF THE GRATUITY ON FREQUENTATION**</ins>
+<ins>**FIRST AXIS : IMPACT OF THE GRATUITY ON FREQUENTATION**</ins> 👫 
+
+The first thing to say about frequentation is that we have to take into account several parameters that have a big impact on the analysis: the number of validations depends on the location (center vs border of Paris), on the day of the week (more traffic during weekdays), and on the hour of the day (the peak hours being 8am and 6pm especially on weekdays) 
 
 <img src="https://github.com/charlottedhu/free_tickets_paris/blob/b0d25a252ba2aac6807b01237abb319fae177ba1/img/valid_station.png" width=50% height=50%>  
 
 ![affluence](img/affluence.png)
+
