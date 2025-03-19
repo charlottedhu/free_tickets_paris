@@ -177,4 +177,7 @@ For example, these are the figures we get when we filter on week-ends + bank hol
 
 ![affluence_we](img/affluence_we.png)  
 
-We do not have access to capacity and infrastructure budget, so the recommendations we made could be more precise, but based on the insights we have, and because week-ends represent around 20% of the traffic, we can say that if IDFM wants to test gratuity, it could be interesting to focus this test on week-ends only. Some cities already offer this type of gratuity, like Nantes for example, although the city is way smaller than Paris. 
+We do not have access to capacity and infrastructure budget, so the recommendations we made could be more precise, but based on the insights we have, and because week-ends represent around 20% of the traffic, we can say that if IDFM wants to test gratuity, it could be interesting to focus this test on week-ends only. Some cities already offer this type of gratuity, like Nantes for example, although the city is way smaller than Paris.  
+
+<ins>**SECOND AXIS : IMPACT OF THE GRATUITY ON BUDGET**</ins> 💰 
+
