@@ -9,6 +9,10 @@ I made this analysis along with 3 other teammates at Le Wagon. This is the final
 ### ⚠️ Disclaimer
 This analysis is made with public data only: we did know that the analysis is not completely suited for the "real" world. We did not have any information about IDFM's capacity of evolution in terms or infrastructure, nor about their detailed budget. However, I think our presentation is still interesting both for the data manipulation we made and the content that came out of it. 
 
+### Table of contents
+- [Summary & objective](#-summary--objective)
+- [Data source and perimeter of the analysis](#-data-source-and-perimeter-of-the-analysis)
+
 ### 📝 Summary & objective
 Our objective was to assess the consequences of partial / complete gratuity in the parisian subway. 
 We chose 3 axis to develop our analysis: peak periods, budget and environment:
