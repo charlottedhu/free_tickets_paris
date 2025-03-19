@@ -38,6 +38,7 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 🔗[Go back to the Table of contents](#-table-of-contents)  
 
+
 ### 🚿 Data cleaning of the main data source with Python (Pandas library)
 
 <ins>Here are the cleaning actions we performed on the **validations** table, i.e. our main table</ins>
@@ -85,6 +86,7 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 🔗[Go back to the Table of contents](#-table-of-contents)  
 
+
 ### 🪄 Data Transformation with Python (Pandas library): create a first table containing the hourly validations
 
 - **Group by JOUR, LIBELLE_ARRET, CATEGORIE_TITRE, sum of NB_VALID** - *validations table*
@@ -124,6 +126,7 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
   ```
 
 🔗[Go back to the Table of contents](#-table-of-contents)  
+
 
 ### 🪄 Data transformation with SQL (BigQuery): create a second table with the calculation of the gap of revenue  
 
@@ -170,6 +173,7 @@ So we ended with another enriched **validations** table containing the financial
 At the end of our data transformation, we had 2 enriched tables, **valid_horaire** and **validations**, that we exported in Looker Studio to structure our analysis. 
 
 🔗[Go back to the Table of contents](#-table-of-contents)  
+
 
 ### 📊 Data Vizualisation and Analysis with Looker Studio
 
