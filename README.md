@@ -159,9 +159,15 @@ At the end of our data transformation, we had 2 enriched tables, **valid_horaire
 
 <ins>**FIRST AXIS : IMPACT OF THE GRATUITY ON FREQUENTATION**</ins> 👫 
 
-The first thing to say about frequentation is that we have to take into account several parameters that have a big impact on the analysis: the number of validations depends on the location (center vs border of Paris), on the day of the week (more traffic during weekdays), and on the hour of the day (the peak hours being 8am and 6pm especially on weekdays) 
+The first thing to say about frequentation is that we have to take into account several parameters that have a big impact on the analysis: the number of validations depends on the location (center vs border of Paris), on the day of the week (more traffic during weekdays), and on the hour of the day (the peak hours being 8am and 6pm especially on weekdays), as we can see in these graphs below:
 
 <img src="https://github.com/charlottedhu/free_tickets_paris/blob/b0d25a252ba2aac6807b01237abb319fae177ba1/img/valid_station.png" width=50% height=50%>  
 
 ![affluence](img/affluence.png)
 
+The idea is to anticipate what will be the total frequentation by year and average by day if it increases with gratuity. We made 3 hypothesis: low, medium and high increase. This is what we have in the capture below. 
+**LOW**: Freqentation increases by 2% ➡️ It represents 19.5 millions more people in the subway in a year, i.e. 54K more people a day on average
+**MEDIUM**: Frequentation increases by 5% ➡️ It represents 48.7 millions more people in the subway in a year, i.e. 136K more people a day on average
+**HIGH**: Frequentation increases by 10% ➡️ It represents 97.4 millions more people in the subway in a year, i.e. 272K more people a day on average
+
+![affluence_prev](img/affluence_prev.png)
