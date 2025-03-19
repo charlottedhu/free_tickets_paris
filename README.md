@@ -34,7 +34,9 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 - 2 main types of tables: **validations** (number of validations by ticket categories, days ands stations) and **profil horaire** (percentage of validations by hour, type of day, and stations) - See ERD below
 - secondary tables: geolocation, information about tickets, type of days (week-days, week-ends, bank holidays, school vacation) - See ERD below
 
-![ERD](img/ERD_free_tickets.png)
+![ERD](img/ERD_free_tickets.png)  
+
+🔗[Go back to the Table of contents](#-table-of-contents)  
 
 ### 🚿 Data cleaning of the main data source with Python (Pandas library)
 
@@ -81,6 +83,8 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 **TRNC_HORR_60** = hour of the day (60-minute periods)   
 **pourc_validations** = percentage of validations counted in the specific hour of the day  
 
+🔗[Go back to the Table of contents](#-table-of-contents)  
+
 ### 🪄 Data Transformation with Python (Pandas library): create a first table containing the hourly validations
 
 - **Group by JOUR, LIBELLE_ARRET, CATEGORIE_TITRE, sum of NB_VALID** - *validations table*
@@ -118,6 +122,8 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
   from pandas_gbq import to_gbq
   to_gbq(df, f'free_tickets.valid_horaire', project_id=training-431014, if_exists='append')
   ```
+
+🔗[Go back to the Table of contents](#-table-of-contents)  
 
 ### 🪄 Data transformation with SQL (BigQuery): create a second table with the calculation of the gap of revenue  
 
@@ -162,6 +168,8 @@ So we ended with another enriched **validations** table containing the financial
 
 
 At the end of our data transformation, we had 2 enriched tables, **valid_horaire** and **validations**, that we exported in Looker Studio to structure our analysis. 
+
+🔗[Go back to the Table of contents](#-table-of-contents)  
 
 ### 📊 Data Vizualisation and Analysis with Looker Studio
 
