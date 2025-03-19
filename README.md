@@ -165,7 +165,7 @@ With a left join on the name of the subway stations ('LIBELLE_ARRET'), we also a
   FROM validations LEFT JOIN emplacement_gares_ligne_metro AS geo USING LIBELLE_ARRET
   ```
 
-So we ended with another enriched **validations** table containing the financial information we need: 
+So we ended with another enriched **validations** table containing the financial information we need:  
 ![enriched_valid](img/enriched_valid.png)  
 
 
