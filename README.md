@@ -159,5 +159,6 @@ At the end of our data transformation, we had 2 enriched tables, **valid_horaire
 
 👫 <ins>**FIRST AXIS : IMPACT OF THE GRATUITY ON FREQUENTATION**</ins>
 
-<img src="https://github.com/charlottedhu/free_tickets_paris/blob/b0d25a252ba2aac6807b01237abb319fae177ba1/img/valid_station.png"width=50% height=50%>
+<img src="https://github.com/charlottedhu/free_tickets_paris/blob/b0d25a252ba2aac6807b01237abb319fae177ba1/img/valid_station.png" width=50% height=50%>  
+
 ![affluence](img/affluence.png)
