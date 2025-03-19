@@ -173,6 +173,8 @@ The idea is to anticipate what will be the total frequentation by year and avera
 ![affluence_prev](img/affluence_prev.png)  
 
 What is interesting is that we can filter these figures and graphs by type of day and / or by subway station. It can be useful for IDFM to anticipate which are the days, hours or stations that will be jammed and could require additionnal service (which means capacity and budget). It is a way to know if they can offer gratuity given their capacity and budget.  
-For example, these are the figures we get 
+For example, these are the figures we get when we filter on week-ends + bank holidays only (school vacation week-ends included):  
 
-We do not have access to capacity and infrastructure budget, so the recommendations we made could be more precise, but based on the insights we have
+![affluence_we](img/affluence_we.png)  
+
+We do not have access to capacity and infrastructure budget, so the recommendations we made could be more precise, but based on the insights we have, and because week-ends represent around 20% of the traffic, we can say that if IDFM wants to test gratuity, it could be interesting to focus this test on week-ends only. Some cities already offer this type of gratuity, like Nantes for example, although the city is way smaller than Paris. 
