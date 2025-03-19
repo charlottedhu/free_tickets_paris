@@ -9,9 +9,13 @@ I made this analysis along with 3 other teammates at Le Wagon. This is the final
 ### ⚠️ Disclaimer
 This analysis is made with public data only: we did know that the analysis is not completely suited for the "real" world. We did not have any information about IDFM's capacity of evolution in terms or infrastructure, nor about their detailed budget. However, I think our presentation is still interesting both for the data manipulation we made and the content that came out of it. 
 
-### Table of contents
+### 📄 Table of contents
 - [Summary & objective](#-summary--objective)
 - [Data source and perimeter of the analysis](#-data-source-and-perimeter-of-the-analysis)
+- [Data cleaning with Python](#-data-cleaning-of-the-main-data-source-with-python-pandas-library)
+- [Data tranformation with Python](#-data-transformation-with-python-pandas-library-create-a-first-table-containing-the-hourly-validations)
+- [Data transformation with SQL](#-data-transformation-with-sql-bigquery-create-a-second-table-with-the-calculation-of-the-gap-of-revenue)
+- [Data Vizualisation and analysis with Looker Studio](#-data-vizualisation-and-analysis-with-looker-studio)  
 
 ### 📝 Summary & objective
 Our objective was to assess the consequences of partial / complete gratuity in the parisian subway. 
