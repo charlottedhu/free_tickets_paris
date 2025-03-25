@@ -216,3 +216,7 @@ Public data published in 2022 by IDFM shows that their total budget for the year
 
 ![ecologie_total](img/ecologie_total.png)  
 
+The ecological impact of reducing public transport prices is an argument which is often used by administration to encourage it. For example, when public transport in Montpellier became totally free, it was mentionned in the city communication. 
+
+
+This is why it seemed important to us to work on the subject. 
