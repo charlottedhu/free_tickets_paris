@@ -206,8 +206,13 @@ Public data published in 2022 by IDFM shows that their total budget for the year
 
 - Totally free tickets would cause a loss of 123.08 millions euros according to our calculation, which represents 2.56% of the RATP budget. 
 - As we can expect, the most impactful type of day is "JOVS", which means: week days exluding school holidays. It represents more than 50% of the budget loss alone (70 millions euros, 1.47% of the RATP budget). These are the days when people go to work using public transports, so this is quite logical. On the contrary, when filtering on week-ends and bank holidays, we have a 27 millions euros loss (0.56% of the RATP budget). 
-- The type of ticket which impacts most the analysis is the Navigo pass (monthly rate), because this is the most widely used (86 millions euros, 1,79% of the RATP budget, almost 70% of the total calculated loss). The other types of tickets are meant for people who benefit from price reductions (students, unemployend, old or disabled people). or for daily Navigo rates.
+- The type of ticket which impacts most the analysis is the Navigo pass (monthly rate), because this is the most widely used (86 millions euros, 1,79% of the RATP budget, almost 70% of the total calculated loss). The other types of tickets are meant for people who benefit from price reductions (students, unemployed, old or disabled people), or for daily Navigo rates.
 
 🎯 We don't have access to the total costs of IDFM, so we know that the calculation we made does not include the total cost of free tickets (which would take into account the services cost for example), but based on the data we have, we can say:
 1. That we confirm our recommendation to start with free tickets on week-ends.
-2. That we recommend to start with cheaper tickets to minimize the budget impact before considering free Navigo passes. 
+2. That we recommend to start with cheaper tickets to minimize the budget impact before considering free Navigo passes.  
+
+<ins>**THIRD AXIS : IMPACT OF FREE TICKETS ON CO2 EMISSIONS**</ins> 🌱  
+
+h
+
