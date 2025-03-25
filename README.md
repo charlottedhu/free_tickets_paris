@@ -200,4 +200,6 @@ We do not have access to capacity and infrastructure budget, so the recommendati
 
 <ins>**SECOND AXIS : IMPACT OF FREE TICKETS ON BUDGET**</ins> 💰 
 
-Public data published in 2022 by IDFM shows that their total budget for the year is 10 billions euros, with 4,8 billions euros for the subway entity (RATP: Régie Autonome des Transports Parisiens). This will be our basis for comparison with the budget loss we calculate. 
+Public data published in 2022 by IDFM shows that their total budget for the year is **10 billions euros**, with **4,8 billions euros** for the subway entity (RATP: Régie Autonome des Transports Parisiens). This will be our basis for comparison with the budget loss we calculate. 
+
+![budget_total](img/budget_total.png)
