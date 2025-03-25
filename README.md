@@ -214,5 +214,5 @@ Public data published in 2022 by IDFM shows that their total budget for the year
 
 <ins>**THIRD AXIS : IMPACT OF FREE TICKETS ON CO2 EMISSIONS**</ins> 🌱  
 
-h
+![ecologie_total](img/ecologie_total.png)  
 
