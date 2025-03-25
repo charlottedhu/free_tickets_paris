@@ -214,10 +214,10 @@ Public data published in 2022 by IDFM shows that their total budget for the year
 
 <ins>**THIRD AXIS : IMPACT OF FREE TICKETS ON CO2 EMISSIONS**</ins> 🌱  
 
+The ecological impact of reducing public transport prices is an argument which is often used by administrations to encourage it. For example, when public transport in Montpellier (south of France) became totally free, it was mentionned in the city communication. 
+
+  
+
+This is why it seemed important to us to work on the subject. In theory, CO2 emissions should be reduced if people who use a car switch transport modes and start using public transports instead. The idea is to try to estimate that decrease of CO2 emissions with the frequentation hypothesis we made before: among all the incremental traffic we estimate, we make the hypothesis that some part is attributed to the car drivers. We made this part quite low, around 5%, after looking at figures online, to try not to overestimate the impact. Thanks to public data, we also know that people travelling by public transports emit 35 times less CO2 than people travelling by car. This allows us to calculate a yearly decrease of CO2 emissions for each frequentation hypothesis. 
+
 ![ecologie_total](img/ecologie_total.png)  
-
-The ecological impact of reducing public transport prices is an argument which is often used by administration to encourage it. For example, when public transport in Montpellier became totally free, it was mentionned in the city communication. 
-
-<img src="https://github.com/charlottedhu/free_tickets_paris/blob/844a968f8840e668e5f7b31ce061a32d0b437b53/img/eco_montp.png" width=30% height=30%>  
-
-This is why it seemed important to us to work on the subject. 
