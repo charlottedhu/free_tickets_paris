@@ -239,8 +239,11 @@ The final conclusion we made is based on the LOW hypothesis of traffic increase 
 We recommended a 3-step approach for a possible implementation:
 1. Start with free tickets on **week-ends and bank holidays** (+4.4 millions more validations a year and a budget loss of 27 millions euros)
 2. Then, add **all the tickets except monthly Navigo on every day of the week** (minimal change of frequentation, budget loss of 41.5 millions euros, including the first measure)
-3. At last, offer totally free tickets (+19 millions people in the subway compared to the current system, and a total budget gap of 123 millions euros)
+3. At last, offer **totally free tickets** (+19 millions people in the subway compared to the current system, and a total budget gap of 123 millions euros)
+
+![reco](img/reco.png)  
+
+### 🚀 To go further
 
 TO GO FURTHER : need deep dive analysis for the most frequented stations / take into account seasonality (other than holidays) 
 
-![reco](img/reco.png)
