@@ -228,8 +228,19 @@ So, if we consider the 3 hypothesis:
 - **MEDIUM**: Frequentation increases by 5% ➡️ It represents 4.87 millions former car drivers in the subway in a year, i.e. a reduction of 634 tons of CO2 emissions.  
 - **HIGH**: Frequentation increases by 10% ➡️ It represents 9.74 millions former car drivers in the subway in a year, i.e. a reduction of 1268 tons of CO2 emissions.
 
-Note: our estimation may seem quite low, but doing the exercise is always interesting. The context may vary in the next years with more electric cars, maybe also more traffic regulation in the inner Paris area... So this is a difficult subject !
+Note: our estimation may seem quite low, but doing the exercise is always interesting. The context may vary in the next years with more electric cars, maybe also more traffic regulation in the inner Paris area... So this is a difficult subject !  
+
+🔗[Go back to the Table of contents](#-table-of-contents)  
+
 
 ### 💡 Conclusion and final recommendations
+
+The final conclusion we made is based on the LOW hypothesis of traffic increase (+2% validations)
+We recommended a 3-step approach for a possible implementation:
+1. Start with free tickets on **week-ends and bank holidays** (+4.4 millions more validations a year and a budget loss of 27 millions euros)
+2. Then, add **all the tickets except monthly Navigo on every day of the week** (minimal change of frequentation, budget loss of 41.5 millions euros, including the first measure)
+3. At last, offer totally free tickets (+19 millions people in the subway compared to the current system, and a total budget gap of 123 millions euros)
+
+TO GO FURTHER : need deep dive analysis for the most frequented stations / take into account seasonality (other than holidays) 
 
 ![reco](img/reco.png)
