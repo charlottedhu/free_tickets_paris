@@ -229,6 +229,6 @@ So, if we consider the 3 hypothesis:
 
 Note: our estimation may seem quite low, but doing the exercise is always interesting. The context may vary in the next years with more electric cars, maybe also more traffic regulation in the inner Paris area... So this is a difficult subject !
 
-### 💡 Conclusion and final recommendation
+### 💡 Conclusion and final recommendations
 
 ![reco](img/reco.png)
