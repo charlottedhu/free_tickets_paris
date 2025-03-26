@@ -218,6 +218,15 @@ The ecological impact of reducing public transport prices is an argument which i
 
 <img src="https://github.com/charlottedhu/free_tickets_paris/blob/844a968f8840e668e5f7b31ce061a32d0b437b53/img/eco_montp.png" width=30% height=30%> 
 
-This is why it seemed important to us to work on the subject. In theory, CO2 emissions should be reduced if people who use a car switch transport modes and start using public transports instead. The idea is to try to estimate that decrease of CO2 emissions with the frequentation hypothesis we made before: among all the incremental traffic we estimate, we make the hypothesis that some part is attributed to the car drivers. We made this part quite low, around 5%, after looking at figures online, to try not to overestimate the impact. Thanks to public data, we also know that people travelling by public transports emit 35 times less CO2 than people travelling by car. This allows us to calculate a yearly decrease of CO2 emissions for each frequentation hypothesis. 
+This is why it seemed important to us to work on the subject. In theory, CO2 emissions should be reduced if people who use a car switch transport modes and start using public transports instead. The idea is to try to estimate that decrease of CO2 emissions with the frequentation hypothesis we made before: among all the incremental traffic we estimate, we make the hypothesis that some part is attributed to the car drivers. We made this part quite low, around 10%, after looking at figures online, to try not to overestimate the impact. Thanks to public data, we also know that people travelling by public transports emit 35 times less CO2 than people travelling by car. This allows us to calculate a yearly decrease of CO2 emissions for each frequentation hypothesis. 
 
 ![ecolo](img/ecolo.png)  
+
+So, if we consider the 3 hypothesis:
+- **LOW**: Freqentation increases by 2% ➡️ 1.95 millions former car drivers in the subway in a year, i.e. a reduction of 254 tons of CO2 emissions.  
+- **MEDIUM**: Frequentation increases by 5% ➡️ It represents 4.87 millions former car drivers in the subway in a year, i.e. a reduction of 634 tons of CO2 emissions.  
+- **HIGH**: Frequentation increases by 10% ➡️ It represents 9.74 millions former car drivers in the subway in a year, i.e. a reduction of 1268 tons of CO2 emissions.
+
+Note: our estimation may seem quite low, but doing the exercise is always interesting. The context may vary in the next years with more electric cars, maybe also more traffic regulation in the inner Paris area... So this is a difficult subject !
+
+
