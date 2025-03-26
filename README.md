@@ -27,7 +27,6 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 
 ### 📥 Data source and perimeter of the analysis
 **Main data source** : [Plateforme Régionale d'Information pour la Mobilité](https://prim.iledefrance-mobilites.fr/fr) (PRIM) for frequentation data and types of tickets  
-**Secondary data source** : [Portail OpenData d'AirParif](https://data-airparif-asso.opendata.arcgis.com/) for data about greenhouse gas emissions.
 
 - The data comes out as csv files, one for 2022 data and one for 2023. Railroad network (subway, RER) and road network (bus, tram) are also separated into different files.  
 - The analysis goes from June 2022 to June 2023 to get one complete year of data.  
