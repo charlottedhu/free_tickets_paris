@@ -16,7 +16,7 @@ This analysis is made with public data only: we did know that the analysis is no
 - [Data tranformation with Python](#-data-transformation-with-python-pandas-library-create-a-first-table-containing-the-hourly-validations)
 - [Data transformation with SQL](#-data-transformation-with-sql-bigquery-create-a-second-table-with-the-calculation-of-the-gap-of-revenue)
 - [Data Vizualisation and analysis with Looker Studio](#-data-vizualisation-and-analysis-with-looker-studio)
-- [Conclusion and final recommendations](##-conclusion-and-final-recommendations)
+- [Conclusion and final recommendations](#-conclusion-and-final-recommendations)
 
 ### 📝 Summary & objective
 Our objective was to assess the consequences of partially / completely free tickets in the parisian subway. 
