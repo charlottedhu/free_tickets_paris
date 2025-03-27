@@ -27,7 +27,7 @@ We chose 3 axis to develop our analysis: peak periods, budget and environment:
 - 🌱 <ins>**Environment**:</ins> Can we estimate the impact of free tickets on CO2 emissions in the Paris area ? **Main KPI: tons of CO2 emissions**
 
 ### 📥 Data source and perimeter of the analysis
-**Main data source** : [Plateforme Régionale d'Information pour la Mobilité](https://prim.iledefrance-mobilites.fr/fr) (PRIM) for frequentation data and types of tickets  
+**Data source** : [Plateforme Régionale d'Information pour la Mobilité](https://prim.iledefrance-mobilites.fr/fr) (PRIM) for frequentation data and types of tickets  
 
 - The data comes out as csv files, one for 2022 data and one for 2023. Railroad network (subway, RER) and road network (bus, tram) are also separated into different files.  
 - The analysis goes from June 2022 to June 2023 to get one complete year of data.  
