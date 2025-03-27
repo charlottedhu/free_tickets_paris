@@ -17,6 +17,7 @@ This analysis is made with public data only: we did know that the analysis is no
 - [Data transformation with SQL](#-data-transformation-with-sql-bigquery-create-a-second-table-with-the-calculation-of-the-gap-of-revenue)
 - [Data Vizualisation and analysis with Looker Studio](#-data-vizualisation-and-analysis-with-looker-studio)
 - [Conclusion and final recommendations](#-conclusion-and-final-recommendations)
+- [To go further](#-to-go-further)
 
 ### 📝 Summary & objective
 Our objective was to assess the consequences of partially / completely free tickets in the parisian subway. 
@@ -246,5 +247,7 @@ We recommended a 3-step approach for a possible implementation:
 
 To go further into the analysis, here are some deep dives that could be interesting:
 - **An analysis by station:** the analysis we made doesn't take into account the frequentation of each station, and we know that stations in the center of Paris, where several subway lines are crossing, already register a high volume of validations. While the least frequented stations could easily absord the incremental traffic due to free tickets, the biggest ones may not have enough capacity. 
-- **An analysis by seasonality:** the only distinction me make in terms of type of day is week day / week-end and school holidays. But we did not look at the repartition of the traffic over an entire year. It may potentially impact the analysis, particularly in the most touristic areas of Paris. 
+- **An analysis by seasonality:** the only distinction me make in terms of type of day is week day / week-end and school holidays. But we did not look at the repartition of the traffic over an entire year. It may potentially impact the analysis, particularly in the most touristic areas of Paris.
+
+📖 😍 **Thanks for reading !** 
 
